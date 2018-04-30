@@ -1,6 +1,7 @@
 $primary_color: blue;
 $second_color: red;
 $main_margin: 2rem;
+$second_margin: 4rem;
 $main_padding: 1rem;
 
 
@@ -19,6 +20,6 @@ $main_padding: 1rem;
 }
 
 p{
-	padding-top: $main_margin;
-	padding-bottom: $main_padding;
+	margin-top: $second_margin;
+	margin-bottom: $main_margin;
 }
