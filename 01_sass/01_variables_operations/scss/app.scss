@@ -1,0 +1,24 @@
+$primary_color: blue;
+$second_color: red;
+$main_margin: 2rem;
+$main_padding: 1rem;
+
+
+.element-1, .element-5, .element-7, .element-10{
+	color: $primary_color;
+}
+
+.element-2, .element-3, .element-4, .element-6, .element-8, .element-9{
+	color: $second_color;
+}
+
+.bloc{
+	margin: $main_margin;
+	padding-top: $main_padding;
+	padding-bottom: main_padding;
+}
+
+p{
+	padding-top: $main_margin;
+	padding-bottom: $main_padding;
+}

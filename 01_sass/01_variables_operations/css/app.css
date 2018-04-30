@@ -1,0 +1,20 @@
+.element-1, .element-5, .element-7, .element-10 {
+  color: blue;
+}
+
+.element-2, .element-3, .element-4, .element-6, .element-8, .element-9 {
+  color: red;
+}
+
+.bloc {
+  margin: 2rem;
+  padding-top: 1rem;
+  padding-bottom: main_padding;
+}
+
+p {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+/*# sourceMappingURL=css/app.css.map */
