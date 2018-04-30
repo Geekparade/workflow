@@ -1,0 +1,41 @@
+/*exo2*/
+
+$background_blue:blue;
+$font_white:white;
+$border_black: solid 1px black;
+$padding_auto: auto;
+$italic: italic;
+$bold: bold;
+$black: black;
+$red: red;
+$underline: underline, italic;
+$grey: grey;
+
+.bloc{
+	p{
+		background-color: $background_blue;
+		color: $font_white;
+		font-weight: $bold;
+	}
+}
+
+.other-bloc{
+	p{
+		border: $border_black;
+		padding: $padding_auto;
+		font-style: $italic;
+	}
+}
+
+a{
+	color: $black;
+
+	&:hover{
+	color: $red;
+	};
+
+	&:focus, &:active{
+		font-style: $underline;
+		color: $grey
+	};
+};

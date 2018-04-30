@@ -1,0 +1,25 @@
+/*exo2*/
+.bloc p {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+.other-bloc p {
+  border: solid 1px black;
+  padding: auto;
+  font-style: italic;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:focus, a:active {
+  font-style: underline, italic;
+  color: grey;
+}
+
+/*# sourceMappingURL=css/app.css.map */
